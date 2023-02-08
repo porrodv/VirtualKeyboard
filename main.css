@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgb(251, 146, 60), rgb(56, 189, 248));
+}
+
+.main-input {
+    font-size: 30px;
+    width: 500px;
+    height: 40px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+.input-container {
+    width: 684px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#keyboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 851px;
+    gap: 5px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.layer {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+    max-height: 70px;
+}
+
+.key {
+    font-size: 18px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    height: 70px;
+    width: 52px;
+}
+.key:hover {
+    background-color: #555;
+}
+
+.key-normal {
+    width: 52px;
+    height: 70px;
+}
+
+.key-mayus {
+    width: 85px;
+}
+.key-shift {
+    width: 167px;
+}
+.key-shift2 {
+    width: 52px;
+}
+.key-space {
+    width: 361px;
+}
+.key-backspace {
+    width: 110px;
+}
+.key-tab {
+    width: 72px;
+    height: 70px;
+}
+.key-enterTop {
+    width: 90px;
+    color: #222;
+}
+.key-enterTop:hover {
+    color: #555;
+}
+
+.key-enter {
+    width: 77px;
+    height: 145px;
+    position: relative;
+    top: -75px;
+}
+
+.key-control, .key-windows, .key-alt, .key-altgr, .key-menu {
+    width: 65px;
+}
+
+
+.key-empty {
+    width: 89px;
+    height: 70px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
